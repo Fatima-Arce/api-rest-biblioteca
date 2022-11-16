@@ -41,7 +41,7 @@ router.put('/', async (peti, resp) => {
 
 });
 
-//delete
+//DELETE
 router.delete('/:id', async (peti, resp) => {
     try {
         let idRecibido = peti.params.id;
